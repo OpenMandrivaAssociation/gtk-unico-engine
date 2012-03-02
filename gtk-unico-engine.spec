@@ -8,7 +8,7 @@ Group:          Graphical desktop/GNOME
 License:        LGPLv3
 URL:            https://launchpad.net/unico/
 Source0:        http://launchpad.net/unico/1.0/%{version}/+download/%{engine_name}-%{version}.tar.gz
-BuildRequires:  pkgconfig(gtk+3.0)
+BuildRequires:  pkgconfig(gtk-+3.0)
 
 %description
 Unico is a Gtk+ engine that aims to be the more complete yet powerful theming
