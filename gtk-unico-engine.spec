@@ -4,7 +4,7 @@ Name:           gtk-unico-engine
 Version:        1.0.1
 Release:        1
 Summary:        Unico Gtk+ theming engine
-Group:          User Interface/Desktops
+Group:          Graphical desktop/GNOME
 License:        LGPLv3
 URL:            https://launchpad.net/unico/
 Source0:        http://launchpad.net/unico/1.0/%{version}/+download/%{engine_name}-%{version}.tar.gz
