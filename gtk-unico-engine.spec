@@ -32,3 +32,17 @@ find %{buildroot} -type f -name "*.la" -exec rm -f {} ';'
 %doc AUTHORS COPYING NEWS
 %{_libdir}/gtk-3.0/3.0.0/theming-engines/lib%{engine_name}.so
 
+
+
+%changelog
+* Fri Mar 02 2012 Matthew Dawkins <mattydaw@mandriva.org> 1.0.1-1
++ Revision: 781818
+- cleaned up spec for mdv
+- imported package gtk-unico-engine
+
+
+* Mon Oct 03 2011 Mohamed El Morabity <melmorabity@fedoraproject.org> - 1.0.1-2
+- Remove useless IM scriptlets
+
+* Thu Sep 29 2011 Mohamed El Morabity <melmorabity@fedoraproject.org> - 1.0.1-1
+- Initial RPM release
