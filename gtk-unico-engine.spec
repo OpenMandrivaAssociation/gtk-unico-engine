@@ -2,7 +2,7 @@
 
 Name:           gtk-unico-engine
 Version:        1.0.1
-Release:        1
+Release:        2
 Summary:        Unico Gtk+ theming engine
 Group:          Graphical desktop/GNOME
 License:        LGPLv3
