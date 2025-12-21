@@ -8,6 +8,11 @@ Group:          Graphical desktop/GNOME
 License:        LGPLv3
 URL:            https://launchpad.net/unico/
 Source0:        http://launchpad.net/unico/1.0/%{version}/+download/%{engine_name}-%{version}.tar.gz
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:  pkgconfig(gtk+-3.0)
 
 %description
